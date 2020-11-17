@@ -90,6 +90,8 @@ body{
 	display:none;
 	max-width:300px;
 	text-align:center;
+	user-select: none;
+
 }
 .dial-pad-wrap .left-pan .calling .title{
 	font-size:28px;
@@ -136,6 +138,8 @@ body{
 	font-size:16px;
 	border-radius:50%;
 	animation-duration:1s;
+	user-select: none;
+	outline: none;cursor: pointer;
 }
 .dial-pad-wrap .left-pan .calling .action .btn.active{
 	color:#eee;
